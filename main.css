@@ -20,7 +20,7 @@ body {
 
 .wrapper {
     overflow: hidden;
-    min-width: 1310px;
+    min-width: 1440px;
 }
 
 .container {
@@ -416,15 +416,15 @@ body {
     color:#fff
 }
 
-.collectios {
+.collections {
     margin-bottom: 135px;
 }
 
-.collectios__list {
+.collections__list {
     display: flex;
 }
 
-.collectios__item {
+.collections__item {
     min-width: 474px;
     flex: 1;
     overflow: hidden;
@@ -433,7 +433,7 @@ body {
     position: relative;
 }
 
-.collectios__item:before {
+.collections__item:before {
     content: "";
     display: block;
     position: absolute;
@@ -443,18 +443,18 @@ body {
     background: center center / contain no-repeat;
 }
 
-.collectios__item--type-guys:before {
+.collections__item--type-guys:before {
     background-image: url('./img/collections/collection_man.png');
 }
 
-.collectios__item--type-girls:before {
+.collections__item--type-girls:before {
     background-image: url('./img/collections/collection_woman.png');
     top: -31%;
     width: 80%;
     left: -25%
 }
 
-.collectios__link {
+.collections__link {
     display: block;
     padding: 74px 13% 74px 44%;
     text-decoration: none;
@@ -465,13 +465,13 @@ body {
     box-sizing: border-box;
 }
 
-.collectios__link:hover .btn {
+.collections__link:hover .btn {
     background: var(--red);
     color: #fff;
 
 }
 
-.collectios__title {
+.collections__title {
     font-family: var(--titlesFont);
     font-style: 70px;
     font-weight: bold;
@@ -481,11 +481,11 @@ body {
     margin-bottom: 11px;
 }
 
-.collectios__item:last-child {
+.collections__item:last-child {
     margin-right: 0;
 }
 
-.collectios__desc {
+.collections__desc {
     margin-bottom: 28px;
 }
 
@@ -514,7 +514,7 @@ body {
     margin-right: 0px;
 }
 
-.site-mune__title {
+.site-menu__title {
     font-family: var(--titlesFont);
     font-size: 24px;
     font-weight: bold;
@@ -522,7 +522,7 @@ body {
     text-transform: uppercase;
     margin-bottom: 24px;
 }
-.site-mune__item {
+.site-mene__item {
     margin-bottom: 15px;
 }
 
