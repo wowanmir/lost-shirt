@@ -226,28 +226,33 @@ body {
 
 
 .filter__color {
-    display: flex;
     align-items: center;
-    margin-top: -20px;
-    margin-bottom: 15px;
+    border: 2px solid var(--grey);
+    margin-left: 10px;
+    border-radius: 50%;
 }
 
 .filter__color--active {
-    border: 2px solid var(--black);
+    border: 2px solid red;
     border-radius: 50%;
-    height: 28px;
-    width: 28px;
-}
 
+}
+.filter__color_block {
+    display: flex;
+    margin-top: -40px;
+    margin-bottom: 15px;
+    gap: 10
+}
 .circle {
-    border: 2px solid var(--grey);
     border-radius: 50%;
     height: 28px;
     width: 28px;
 }
 
-.circle:hover {
+
+.filter__color:hover:not(.filter__color--active) {
     border: 2px solid var(--yellow);
+    border-radius: 50%;
 }
 
 .circle__first {
